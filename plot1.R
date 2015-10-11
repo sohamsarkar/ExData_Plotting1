@@ -1,5 +1,5 @@
 ##step 1. downloaded the household_power_consumption.txt into the "/Users/ssoham/coursera/electricpower/data" directory
-##Step 2. Create the file feb2007.txt for data from the dates 2007-02-01 and 2007-02-02
+##Step 2. Create the file feb2007.txt for data from the dates 2007-02-01 and 2007-02-02 (Done from Unix terminal)
 
 head -n 1 ./data/household_power_consumption.txt > ./data/feb2007.txt
 cat ./data/household_power_consumption.txt  | grep '^0\{0,1\}[12]/0\{0,1\}2/2007' >> ./data/feb2007.txt
